@@ -1,1 +1,1 @@
-# Ejercicios-b-sicos-de-MS-DOS
+# Ejercicios básicos de MS-DOS
