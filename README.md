@@ -5,4 +5,4 @@
 ```sh
 cd  
 ```
-https://raw.githubusercontent.com/juansang/Ejercicios-basicos-de-MS-DOS/main/Users/jsanc/Downloads/ope_002
+![] https://https://github.githubassets.com/Users/jsanc/Downloads/ope_002.jpg
