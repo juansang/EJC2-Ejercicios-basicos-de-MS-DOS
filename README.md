@@ -102,11 +102,16 @@ del apli/word/textos/ejer.txt
 
 
 #### 4. Añade el siguiente párrafo al archivo EJER.TXT
+Abrimos el archivo en el editor situándonos previamente en la ruta donde se encuentra el ejer.txt `` cd varios/agenda`` 
+```
+edit ejer.txt
+```   
+Añadimos el párrafo y lo guardamos con ``CTRL + X``
 
 
 #### 5. Copia el archivo EJER.TXT en la carpeta BASIC
 ```
-cp apli/word/textos/ejer.txt basic
+cp varios/agenda/ejer.txt basic
 ```
 
 
@@ -119,13 +124,15 @@ NewName:fichero.txt
 
 #### 7. Mueve el archivo FICHERO.TXT a la carpeta BASIC
 ```
-mv apli/word/textos/fichero.txt basic
+mv varios/agenda/fichero.txt basic
 ```
 
 
 #### 8. Abre el archivo EJER.TXT y borra la primera frase; almacena el nuevo archivo con el nombre NUEVO.TXT dentro de la carpeta BASIC
-
-
+Para abrirlo, nos situamos en la ruta donde se encuentra `` cd apli/word/textos`` , borramos la primera frase, lo guardamos como nuevo.txt y lo almacenamos en la carpeta basic mediante el comando 
+```
+mv nuevo.txt ../../../prog/basic
+```
 
 #### 9. Copia el archivo NUEVO.TXT en la carpeta NOTAS
 ```
@@ -134,8 +141,7 @@ cp basic/nuevo.txt apli/word/notas
 
 
 #### 10. ¿Cuántos archivos hay en la carpeta BASIC? ¿Y en NOTAS?
-
-
+Para ver cuantos archivos hay en estas carpetas, podemos ver el árbol de la carpeta raíz con un ``tree`` y veremos que basic tiene 3 archivos y notas 1.
 
 
 
@@ -168,9 +174,11 @@ tree ../historia
 
 
 #### 4. Utilizando el editor de MS-DOS crea el siguiente archivo de texto y guárdalo con el nombre TYCHO.TXT dentro de la carpeta DATOS1
+Nos situamos en la ruta especificada ``cd apli/astro/historia/datos1 `` , abrimos el editor con el comando ``edit``, insertamos el texto y lo guardamos como tycho.txt
 
 
 #### 5. Utilizando de nuevo el editor de textos de MS-DOS crea el siguiente archivo de texto, y guárdalo con el nombre KEPLER.TXT dentro de la carpeta DATOS2
+Siguiendo el proceso del apartado anterior, nos dirigmos a la ruta ``cd apli/astro/historia/datos2 `` , abrimos el editor y guardamos el archivo con el texto como kepler.txt .
 
 
 #### 6. Copia los archivos TYCHO.TXT y KEPLER.TXT en la carpeta CIENCIA
@@ -196,6 +204,7 @@ mv total.txt ../apli/astro/historia
 
 
 #### 9. Abre el archivo KEPLER.TXT almacenado en la carpeta CIENCIA y añade el siguiente texto
+Vamos a la ruta donde se encuentra el archivo ``cd/apli/astro/ciencia``, ahora abrimos el archivo con ``edit kepler.txt`` y guardamos el archivo con el texto añadido.
 
 
 #### 10. Cambia el nombre del archivo anterior por el de GALILEO.TXT
