@@ -112,7 +112,7 @@ cp apli/word/textos/ejer.txt basic
 
 #### 6. Cambia el nombre del archivo almacenado en AGENDA por FICHERO.TXT
 ```
-ren apli/word/textos/ejer.txt
+ren varios/agenda/ejer.txt
 NewName:fichero.txt
 ```
 
