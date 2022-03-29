@@ -108,7 +108,7 @@ del apli\word\textos\ejer.txt
 #### 4. Añade el siguiente párrafo al archivo EJER.TXT
 Abrimos el archivo en el editor situándonos previamente en la ruta donde se encuentra el ejer.txt `` cd varios\agenda`` 
 ```
-edit ejer.txt
+editor ejer.txt
 ```   
 Añadimos el párrafo y lo guardamos.
 
@@ -202,7 +202,7 @@ move total.txt ../apli/astro/historia
 
 
 #### 9. Abre el archivo KEPLER.TXT almacenado en la carpeta CIENCIA y añade el siguiente texto
-Vamos a la ruta donde se encuentra el archivo ``cd\apli\astro\ciencia``, ahora abrimos el archivo con ``edit kepler.txt`` y guardamos el archivo con el texto añadido.
+Vamos a la ruta donde se encuentra el archivo ``cd\apli\astro\ciencia``, ahora abrimos el archivo con ``editor kepler.txt`` y guardamos el archivo con el texto añadido.
 
 
 #### 10. Cambia el nombre del archivo anterior por el de GALILEO.TXT
