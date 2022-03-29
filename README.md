@@ -85,7 +85,7 @@ tree ..\
 ## Ejercicio 2
 
 #### 1. Utilizando el editor de textos de MS-DOS, crea un archivo de texto denominado EJER.TXT, con el siguiente contenido, y almacénalo dentro de la carpeta TEXTOS
-Abrimos el editor con el comando ``edit``, se pega el  contenido y se guarda como ejer.txt.
+Abrimos el editor con el comando ``editor``, se pega el  contenido y se guarda como ejer.txt.
 
 Para almacenarlo en TEXTOS utilizaremos 
 ```
@@ -172,7 +172,7 @@ tree ..\historia
 
 
 #### 4. Utilizando el editor de MS-DOS crea el siguiente archivo de texto y guárdalo con el nombre TYCHO.TXT dentro de la carpeta DATOS1
-Nos situamos en la ruta especificada ``cd apli\astro\historia\datos1 `` , abrimos el editor con el comando ``edit``, insertamos el texto y lo guardamos como tycho.txt
+Nos situamos en la ruta especificada ``cd apli\astro\historia\datos1 `` , abrimos el editor con el comando ``editor``, insertamos el texto y lo guardamos como tycho.txt
 
 
 #### 5. Utilizando de nuevo el editor de textos de MS-DOS crea el siguiente archivo de texto, y guárdalo con el nombre KEPLER.TXT dentro de la carpeta DATOS2
@@ -224,7 +224,7 @@ md tecinfo
 ```
 
 #### 2. Crea dentro de TECINFO el siguiente archivo de texto y llámalo HARD.TXT
-Abrimos el editor con el comando ``edit``, insertamos el texto y lo guardamos como hard.txt
+Abrimos el editor con el comando ``editor``, insertamos el texto y lo guardamos como hard.txt
 
 #### 3. Crea dentro de TECINFO el siguiente archivo de texto y llámalo SOFT.TXT
 Igual que en el apartado anterior, abrimos el editor y guardamos el fichero como soft.txt con este texto.
