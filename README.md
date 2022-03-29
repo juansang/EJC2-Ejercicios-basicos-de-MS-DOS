@@ -85,7 +85,7 @@ tree ..\
 ## Ejercicio 2
 
 #### 1. Utilizando el editor de textos de MS-DOS, crea un archivo de texto denominado EJER.TXT, con el siguiente contenido, y almacénalo dentro de la carpeta TEXTOS
-Abrimos el editor con el comando ``editor``, se pega el  contenido y se guarda como ejer.txt.
+Abrimos el editor con el comando ``edit ejer.txt``, se pega el  contenido y se guarda.
 
 Para almacenarlo en TEXTOS utilizaremos 
 ```
@@ -108,7 +108,7 @@ del apli\word\textos\ejer.txt
 #### 4. Añade el siguiente párrafo al archivo EJER.TXT
 Abrimos el archivo en el editor situándonos previamente en la ruta donde se encuentra el ejer.txt `` cd varios\agenda`` 
 ```
-editor ejer.txt
+edit ejer.txt
 ```   
 Añadimos el párrafo y lo guardamos.
 
@@ -172,11 +172,11 @@ tree ..\historia
 
 
 #### 4. Utilizando el editor de MS-DOS crea el siguiente archivo de texto y guárdalo con el nombre TYCHO.TXT dentro de la carpeta DATOS1
-Nos situamos en la ruta especificada ``cd apli\astro\historia\datos1 `` , abrimos el editor con el comando ``editor``, insertamos el texto y lo guardamos como tycho.txt
+Nos situamos en la ruta especificada ``cd apli\astro\historia\datos1 `` , abrimos el editor con el comando ``edit tycho.txt``, insertamos el texto y lo guardamos.
 
 
 #### 5. Utilizando de nuevo el editor de textos de MS-DOS crea el siguiente archivo de texto, y guárdalo con el nombre KEPLER.TXT dentro de la carpeta DATOS2
-Siguiendo el proceso del apartado anterior, nos dirigmos a la ruta ``cd apli\astro\historia\datos2 `` , abrimos el editor y guardamos el archivo con el texto como kepler.txt .
+Siguiendo el proceso del apartado anterior, nos dirigmos a la ruta ``cd apli\astro\historia\datos2 `` , abrimos el editor y guardamos el archivo con ``edit kepler.txt`` .
 
 
 #### 6. Copia los archivos TYCHO.TXT y KEPLER.TXT en la carpeta CIENCIA
@@ -202,7 +202,7 @@ move total.txt ../apli/astro/historia
 
 
 #### 9. Abre el archivo KEPLER.TXT almacenado en la carpeta CIENCIA y añade el siguiente texto
-Vamos a la ruta donde se encuentra el archivo ``cd\apli\astro\ciencia``, ahora abrimos el archivo con ``editor kepler.txt`` y guardamos el archivo con el texto añadido.
+Vamos a la ruta donde se encuentra el archivo ``cd\apli\astro\ciencia``, ahora abrimos el archivo con ``edit kepler.txt`` y guardamos el archivo con el texto añadido.
 
 
 #### 10. Cambia el nombre del archivo anterior por el de GALILEO.TXT
@@ -224,10 +224,10 @@ md tecinfo
 ```
 
 #### 2. Crea dentro de TECINFO el siguiente archivo de texto y llámalo HARD.TXT
-Abrimos el editor con el comando ``editor``, insertamos el texto y lo guardamos como hard.txt
+Abrimos el editor con el comando ``edit hard.txt``, insertamos el texto y lo guardamos.
 
 #### 3. Crea dentro de TECINFO el siguiente archivo de texto y llámalo SOFT.TXT
-Igual que en el apartado anterior, abrimos el editor y guardamos el fichero como soft.txt con este texto.
+Igual que en el apartado anterior, abrimos el editor con el nombre soft.txt, lo que nos creará tal fichero.
 
 #### 4. Mueve el contenido de TECINFO a la carpeta APLI del disquete A utilizado para realizar los ejercicios anteriores
 
