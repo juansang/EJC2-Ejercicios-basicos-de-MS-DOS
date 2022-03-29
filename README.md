@@ -227,7 +227,7 @@ md tecinfo
 Abrimos el editor con el comando ``edit hard.txt``, insertamos el texto y lo guardamos.
 
 #### 3. Crea dentro de TECINFO el siguiente archivo de texto y llámalo SOFT.TXT
-Igual que en el apartado anterior, abrimos el editor con el nombre soft.txt, lo que nos creará tal fichero.
+Igual que en el apartado anterior, abrimos el editor con el nombre soft.txt, lo que nos creará tal fichero y le insertamos dicho texto.
 
 #### 4. Mueve el contenido de TECINFO a la carpeta APLI del disquete A utilizado para realizar los ejercicios anteriores
 
