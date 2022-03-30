@@ -217,7 +217,6 @@ NewName: galileo.txt
 ## Ejercicio 4
 
 #### 1. Crea en la carpeta raíz de la unidad A: una carpeta denominada TECINFO
-Despúes de cambiarnos a la unidad A, para crear la carpeta ejecutaremos
 ```
 md tecinfo
 ```
@@ -229,6 +228,9 @@ Abrimos el editor con el comando ``edit hard.txt``, insertamos el texto y lo gua
 Igual que en el apartado anterior, abrimos el editor con el nombre soft.txt, lo que nos creará tal fichero y le insertamos dicho texto.
 
 #### 4. Mueve el contenido de TECINFO a la carpeta APLI del disquete A utilizado para realizar los ejercicios anteriores
+```
+move tecinfo\.. carp_d\apli
+```
 
 #### 5. Crea un nuevo archivo formado por la unión de HARD.TXT y SOFT.TXT, sin volver a escribir el texto, y guárdalo en la carpeta AGENDA con el nombre ORDER.TXT
 ```
@@ -251,6 +253,9 @@ ren varios\agenda\*.* *.typ
 ```
 
 #### 9. Cambia la primera letra del nombre de todos los archivos del directorio APLI que empiecen por la letra C y tengan extensión DOC de forma que empiecen con la letra S
+```
+ren apli\c*.doc* s*.doc*
+```
 
 #### 10. Copia los archivos contenidos en la carpeta APLI que tengan extensión DOC en la carpeta AGENDA
 ```
