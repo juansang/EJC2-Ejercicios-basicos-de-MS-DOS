@@ -196,8 +196,7 @@ move apli\astro\historia\datos2\kepler.txt apli\astro\historia\datos1
 
 #### 8. Crea un nuevo archivo formado por la unión de los dos anteriores (sin volver a escribir el texto) y guárdalo dentro de la carpeta HISTORIA con el nombre TOTAL.TXT
 ```
-for %f in (*.txt) do type "%f" >> total.txt
-move total.txt ../apli/astro/historia
+copy apli\astro\historia\*.txt apli\astro\historia\total.txt
 ```
 
 
@@ -232,6 +231,9 @@ Igual que en el apartado anterior, abrimos el editor con el nombre soft.txt, lo 
 #### 4. Mueve el contenido de TECINFO a la carpeta APLI del disquete A utilizado para realizar los ejercicios anteriores
 
 #### 5. Crea un nuevo archivo formado por la unión de HARD.TXT y SOFT.TXT, sin volver a escribir el texto, y guárdalo en la carpeta AGENDA con el nombre ORDER.TXT
+```
+copy tecinfo\*.txt varios\agenda\order.txt
+```
 
 #### 6. Elimina la carpeta TECINFO
 ```
@@ -239,6 +241,9 @@ rd tecinfo
 ```
 
 #### 7. Copia a la vez los archivos HARD.TXT y SOFT.TXT en la carpeta VARIOS
+```
+copy *.txt varios
+```
 
 #### 8. Cambia la extensión de los archivos contenidos en AGENDA por .TYP
 ```
