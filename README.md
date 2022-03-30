@@ -242,7 +242,7 @@ rd tecinfo
 
 #### 7. Copia a la vez los archivos HARD.TXT y SOFT.TXT en la carpeta VARIOS
 ```
-copy *.txt varios
+copy tecinfo\*.txt varios
 ```
 
 #### 8. Cambia la extensión de los archivos contenidos en AGENDA por .TYP
